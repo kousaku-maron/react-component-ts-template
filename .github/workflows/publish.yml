@@ -29,8 +29,6 @@ jobs:
           npx can-npm-publish --verbose && yarn publish || echo "Does not publish"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GIT_TOKEN }}
-      - name: publish github-pages
-        run: yarn publish:page
       - name: package-version-to-git-tag
         uses: pkgdeps/action-package-version-to-git-tag@v1
         with:
