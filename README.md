@@ -19,3 +19,7 @@ npm install @kousaku-maron/react-component-ts-temnplate
 // with yarn
 yarn add @kousaku-maron/react-component-ts-temnplate
 ```
+
+# github-pages
+
+> https://kousaku-maron.github.io/react-component-ts-template/
